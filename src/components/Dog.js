@@ -21,3 +21,5 @@ Dog.propTypes = {
   age: PropTypes.number.isRequired,
   weight: PropTypes.string.isRequired
 };
+
+export default Dog;
