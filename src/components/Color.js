@@ -5,7 +5,7 @@ function Color({ name, hex, rgb }) {
   return (
     <dl>
       <dt>Color Name</dt>
-      <dd>{name}</dd>
+      <dd>{name ? name : hex}</dd>
 
       <dt>Hex</dt>
       <dd>{hex}</dd>
